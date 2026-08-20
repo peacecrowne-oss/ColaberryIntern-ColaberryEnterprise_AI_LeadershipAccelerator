@@ -1,0 +1,23 @@
+{
+  "name": "detroit-voter-education",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Detroit Scalable Voter Education Platform -- RFP 548227 pilot. STORY-011 scope: CoordinatorAgent hold-for-review workflow.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node app/server.js",
+    "build": "echo 'no build step yet (server-rendered API only in this scaffold)' && exit 0",
+    "seed": "node seeds/index.js",
+    "db:migrate": "node scripts/migrate.js",
+    "lint": "echo 'TODO: lint' && exit 0",
+    "test": "node --test app/tests/*.test.js",
+    "deploy": "echo 'TODO: deploy' && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {}
+}
